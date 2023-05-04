@@ -2,8 +2,8 @@ name: check-availability
 on: [push]
 
 jobs:
-  Run-npm-on-Ubuntu:
-    name: Run npm on Ubuntu
+  check-availability-on-ubuntu:
+    name: Check availability
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v3
